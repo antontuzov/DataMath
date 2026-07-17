@@ -46,6 +46,12 @@
 | 15 | `15_Supermarket_Analysis.ipynb` | Анализ данных супермаркета: выявление часто покупаемых вместе товаров |
 | 16 | `16_AB_Testing.ipynb` | A/B-тестирование сайта: доверительные интервалы, z-тест для пропорций, размер эффекта, байесовский подход (Beta-Binomial) |
 | 17 | `17_Spam_Classifier.ipynb` | Байесовский классификатор спама с нуля: теорема Байеса, MLE со сглаживанием Лапласа, precision/recall |
+| 18 | `18_IT_Job_Market_USA.ipynb` | Анализ рынка труда IT в США на РЕАЛЬНЫХ данных (BLS OEWS, Census ACS API, Tax Foundation): где выше доход на руки, ниже аренда и налоги — композитный рейтинг штатов |
+| 19 | `19_IT_Job_Market_Russia.ipynb` | Анализ рынка труда IT в России по регионам (hh.ru, Habr Career, ЦИАН, Росстат): НДФЛ 2025, формы занятости (наёмный/самозанятый/ИП), IT-ипотека — композитный рейтинг городов |
+| 20 | `20_IT_Job_Market_EU.ipynb` | Анализ рынка труда IT в ЕС (2025/2026, Stack Overflow Survey, Numbeo, OECD Taxing Wages): подоходный налог + соц. взносы, аренда/ипотека, разные валюты — композитный рейтинг стран |
+| 21 | `21_Global_IT_Comparison.ipynb` | Сводное сравнение США / Россия / ЕС в единой валюте (USD) с поправкой на покупательную способность (PPP) и грейдами junior/middle/senior |
+
+> Решения упражнений к проектам 16–21 находятся в `Projects/solutions/` (ноутбуки `16_Solutions.ipynb` … `21_Solutions.ipynb`).
 
 ## Требования к окружению
 
@@ -54,6 +60,8 @@
 pip install numpy scipy pandas matplotlib seaborn jupyter
 pip install torch torchvision  # Для Модуля 5
 ```
+
+> Для проекта 18 (`18_IT_Job_Market_USA.ipynb`) живая загрузка данных идёт через бесплатный **U.S. Census ACS API** (`api.census.gov`). При отсутствии интернета используется встроенный снимок опубликованных значений.
 
 ### Запуск Jupyter Notebook:
 ```bash
